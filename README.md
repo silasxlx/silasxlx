@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# Silas · Financial AI Application Engineer
+# Silasxlx · Financial AI Application Engineer
 
 <img src="./assets/profile-banner.svg" alt="Financial AI systems: grounded, auditable and measurable" width="100%" />
 
