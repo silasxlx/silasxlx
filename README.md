@@ -1,45 +1,106 @@
-# Silas | AI Agent & RAG Engineer
+<!-- GitHub Profile README for https://github.com/silasxlx -->
 
-> Banking domain knowledge + trusted data foundations + production-minded LLM engineering.
+<div align="center">
 
-I build enterprise AI applications around **Agent workflows, RAG, NL2SQL and model evaluation**. My recent work focuses on turning complex financial knowledge, metrics and operational processes into traceable, testable AI systems.
+# Silas · Financial AI Application Engineer
 
-[![AI Agent](https://img.shields.io/badge/Focus-AI%20Agent-0969da)](https://github.com/silasxlx)
-[![RAG](https://img.shields.io/badge/Focus-RAG-1f883d)](https://github.com/silasxlx)
-[![Python](https://img.shields.io/badge/Python-3.11+-3776ab?logo=python&logoColor=white)](https://www.python.org/)
+<img src="./assets/profile-banner.svg" alt="Financial AI systems: grounded, auditable and measurable" width="100%" />
 
-## Featured projects
+<p><strong>十余年金融数据应用、数据治理与经营分析实践</strong></p>
+<p>专注 AI Agent、RAG、NL2SQL 与 LLM Evaluation，把金融知识、指标和业务流程转化为可追溯、可测试、可审计的 AI 系统。</p>
 
-| Project | What it demonstrates | Evidence |
-| --- | --- | --- |
-| [Banking Credit Review Agent](https://github.com/silasxlx/banking-credit-review-agent) | Multi-Agent review workflow, RAG, deterministic rules, tool calling and human review | Runnable API, UI, evaluation and audit trace |
-| [Banking Analytics Agent](https://github.com/silasxlx/banking-analytics-agent) | Metric semantic layer, guarded NL2SQL, query audit and grounded summaries | Synthetic warehouse, test cases and accuracy report |
-| [Retail Marketing Agent](https://github.com/silasxlx/retail-marketing-agent) | Customer profiling, recommendation, campaign matching and compliance guardrails | Explainable scores, structured output and safety tests |
+<p>
+  <a href="https://github.com/silasxlx"><strong>GitHub</strong></a> ·
+  <a href="https://blog.csdn.net/weixin_40449129"><strong>CSDN 技术博客</strong></a>
+</p>
 
-## Core stack
+📍 Guangzhou, China · 🎯 Open to AI Agent / LLM Application / RAG opportunities
 
-`Qwen` · `LangGraph` · `RAG` · `Multi-Agent` · `NL2SQL` · `Tool Calling` · `FastAPI` · `PyTorch` · `Milvus` · `Docker`
+[30 秒了解我](#30-秒了解我) · [成果与实践](#成果与实践) · [工程项目](#重点工程项目) · [技术写作](#技术写作)
 
-## Engineering principles
-
-- **Grounded:** conclusions cite evidence, metrics or deterministic rules.
-- **Auditable:** each workflow returns a step-level trace instead of a black-box answer.
-- **Safe by design:** permissions, SQL validation, guardrails and human review are explicit nodes.
-- **Reproducible:** every public demo runs with synthetic data and without a paid API key.
-
-## Research & recognition
-
-- Research on a bank retail recommender combining knowledge graphs and graph neural networks; third prize in a 2023-2024 fintech research program and published in *Guangdong FinTech*.
-- Research on human-AI collaborative generation of banking management reports, based on an enterprise BI practice.
-- First prize in the 2023-2024 Aladdin Data Application Competition and second prize in 2025.
-- Third prize in a 2024 fintech progress award program organized by the People's Bank of China.
-
-## Writing & contact
-
-- Technical notes: [CSDN](https://blog.csdn.net/weixin_40449129)
-- Location: Guangzhou, China
-- Open to: AI Agent Engineer · LLM Application Engineer · RAG Engineer
+</div>
 
 ---
 
-All repositories use synthetic data and generic business rules. They demonstrate engineering patterns only and do not reproduce any employer system.
+## 30 秒了解我
+
+- 🏦 **我是谁**：拥有十余年金融数据应用、数据治理、经营分析与机器学习实践经验的 AI 应用工程师。
+- 🧠 **我擅长**：连接领域知识、指标语义、SQL、工具和业务流程，构建有依据、可控制、可观测的大模型应用。
+- 🛠️ **我做过**：银行零售推荐、经营分析报告智能生成、数据应用竞赛与金融科技研究实践。
+- 🚀 **我正在建设**：面向金融场景的 RAG、数据分析 Agent 与智能合规审查工程项目。
+
+> I build production-minded financial AI applications by connecting models with trusted knowledge, data, tools and business workflows.
+
+## 成果与实践
+
+- 🏆 **数据应用竞赛**：2023–2024 年“阿拉丁”数据应用竞赛一等奖，2025 年二等奖。
+- 🏆 **金融科技成果**：2024 年人民银行组织的金融科技进步奖项目三等奖。
+- 📄 **智能推荐研究**：研究知识图谱与图神经网络在银行零售推荐中的应用，获金融科技研究项目三等奖，成果发表于《广东金融科技》。
+- 📊 **智能报告研究**：围绕企业 BI 实践，研究人机协同生成银行经营分析报告的方法与流程。
+
+## 重点工程项目
+
+> 高质量公开仓库正在持续建设。发布后将在这里补充源码、架构、演示和评测报告；所有示例均使用合成数据与通用业务规则。
+
+### 01 · 银行产品知识智能问答平台
+
+面向银行制度、产品手册和操作指引的可追溯 RAG 系统，重点处理条款级知识组织、混合检索、Rerank、引用溯源、失效状态和无依据回答拦截。
+
+`Python` `FastAPI` `LangGraph` `Milvus` `Hybrid Search` `Rerank` `Evaluation`
+
+### 02 · 银行经营分析智能体
+
+连接指标语义层、权限控制、NL2SQL 和分析工作流，让业务问题能够经过查询验证、异常归因和结果溯源，形成结构化分析结论。
+
+`Python` `SQL` `LangGraph` `Qwen Agent` `NL2SQL` `Pandas` `FastAPI`
+
+### 03 · 授信智能合规审查平台
+
+融合制度检索、确定性规则、工具调用与人工复核：规则引擎负责准入和额度等判断，大模型负责复杂材料理解、异常解释和报告生成。
+
+`LangGraph` `Multi-Agent` `RAG` `Rule Engine` `MCP` `Tool Calling` `Human-in-the-loop`
+
+## 我的工程方法
+
+- **Grounded · 有依据**：结论关联原文、条款、数据或工具结果；证据不足时允许拒答。
+- **Controlled · 可控制**：使用显式状态、结构化输出、权限校验、规则约束与人工检查点。
+- **Observable · 可观察**：记录检索、工具调用、状态流转、错误、延迟和 Token 消耗。
+- **Measurable · 可度量**：使用测试集评估 Recall、MRR、忠实度、准确率、延迟与成本。
+- **Recoverable · 可恢复**：为解析、检索、SQL、工具和模型输出设计重试与降级路径。
+- **Maintainable · 可维护**：分离规则、Prompt、模型、工具和数据层，支持版本管理与持续演进。
+
+## 技术能力
+
+- **LLM 应用**：RAG、Agent、Multi-Agent、Structured Output、Prompt Engineering
+- **数据智能**：Python、SQL、Pandas、指标体系、NL2SQL、机器学习
+- **检索与存储**：Milvus、FAISS、PostgreSQL、MySQL、Redis
+- **服务与交付**：FastAPI、Docker、Linux、REST API、Git、CI/CD
+- **质量保障**：Test Set、Retrieval Evaluation、Tracing、Regression Test、Human Review
+
+## 技术写作
+
+我持续记录数据、机器学习和 AI 应用工程实践，重点关注架构取舍、质量评测与失败复盘。
+
+- 📝 [CSDN 技术博客](https://blog.csdn.net/weixin_40449129)
+- 💻 [机器学习博客配套代码](https://github.com/silasxlx/machinelearning-blob)
+
+## 当前探索
+
+- Agent Memory、Agentic RAG 与 Corrective RAG
+- MCP、Tool Calling 与企业权限审计
+- LLM-as-a-Judge 与 RAG / Agent 回归评测
+- 金融知识、指标与规则的统一语义层
+
+---
+
+<div align="center">
+
+### Let's build AI systems that work under real-world constraints.
+
+欢迎围绕金融 AI、企业级 RAG、数据智能和 Agent 工程交流与合作。
+
+[GitHub](https://github.com/silasxlx) · [CSDN](https://blog.csdn.net/weixin_40449129)
+
+<sub>All public demos use synthetic data and generic business rules. No employer or customer data is included.</sub>
+
+</div>
