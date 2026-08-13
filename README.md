@@ -41,8 +41,14 @@
 ## 重点工程项目
 
 > 公开仓库提供源码、架构说明、测试和可复现示例；企业项目实践仅展示脱敏后的方法与能力，不包含雇主或客户数据。
+### 01 · [银行产品知识智能问答平台 · Enterprise Practice](https://github.com/silasxlx/creditguard-ai)
 
-### 01 · [财报智能问答系统 · Financial Report Intelligent Q&A System](https://github.com/silasxlx/financial-report-rag) 
+面向银行制度、产品手册和操作指引的可追溯 RAG 系统，重点处理条款级知识组织、混合检索、Rerank、引用溯源、失效状态和无依据回答拦截。
+
+`Python` `FastAPI` `LangGraph` `Milvus` `Hybrid Search` `Rerank` `Evaluation`
+
+
+### 02 · [财报智能问答系统 · Financial Report Intelligent Q&A System](https://github.com/silasxlx/financial-report-rag) 
 
 面向上市公司年度财报的表格感知 RAG 系统，解决长 PDF 解析、复杂财务表格数据丢失、指标错召回和证据页码不准确等问题。
 
@@ -54,17 +60,11 @@
 
 `Python` `Streamlit` `MinerU` `FAISS` `BM25` `DashScope` `Qwen` `Table-aware RAG`
 
-### 02 · [机器学习 · Classical ML Lab](https://github.com/silasxlx/classical-ml-lab) 
+### 03 · [机器学习 · Classical ML Lab](https://github.com/silasxlx/classical-ml-lab) 
 
 面向经典机器学习算法的离线优先、可复现实验工程，通过统一命令行、确定性数据切分、评估流水线和结构化产物，让模型实验可以重复运行和审计。
 
 `Python` `scikit-learn` `CLI` `Experiment Tracking` `Evaluation` `Testing`
-
-### 03 · 银行产品知识智能问答平台 · Enterprise Practice
-
-面向银行制度、产品手册和操作指引的可追溯 RAG 系统，重点处理条款级知识组织、混合检索、Rerank、引用溯源、失效状态和无依据回答拦截。
-
-`Python` `FastAPI` `LangGraph` `Milvus` `Hybrid Search` `Rerank` `Evaluation`
 
 ### 04 · 银行经营分析智能体 · Enterprise Practice
 
