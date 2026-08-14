@@ -27,7 +27,7 @@
 - 🏦 **我是谁**：拥有 10+ 年金融科技实践经验，长期深耕银行数据智能与 AI 应用，具备 数据治理、数据分析、大模型应用及 Agent 系统开发 的完整项目经验，专注企业级 AI 应用落地。
 - 🧠 **我擅长**：将领域知识、指标语义、业务数据、规则与工具整合为可执行的 Agent 工作流，构建有依据、可评测、可审计、可人工干预的 RAG、NL2SQL 与智能分析系统。
 - 🛠️ **我做过**：主导建设 经营分析智能体、产品知识问答（RAG）、授信智能合规审查（Multi-Agent）、智能营销 Agent 等多个企业级 AI 项目，覆盖经营分析、知识服务、授信审批、精准营销等核心金融场景，实现多项应用上线并产生实际业务价值。
-- 🚀 **我的公开项目**：已开源表格感知财报 RAG 系统与可复现经典机器学习实验室；同时持续研发面向银行知识服务、经营分析与合规审查的企业级 AI 应用。
+- 🚀 **我的公开项目**：已开源可信上传式智能问数、表格感知财报 RAG、授信合规审查和可复现经典机器学习实验室，持续把金融 AI 能力沉淀为可运行、可测试、可追溯的工程系统。
 
 > I build production-minded financial AI applications by connecting models with trusted knowledge, data, tools and business workflows.
 
@@ -40,15 +40,21 @@
 
 ## 重点工程项目
 
-> 公开仓库提供源码、架构说明、测试和可复现示例；企业项目实践仅展示脱敏后的方法与能力，不包含雇主或客户数据。
-### 01 · [银行产品知识智能问答平台 · Enterprise Practice](https://github.com/silasxlx/creditguard-ai)
+> 公开仓库提供源码、架构说明、测试和可复现示例；企业项目实践单独列出，仅展示脱敏后的方法与能力，不包含雇主或客户数据。
 
-面向银行制度、产品手册和操作指引的可追溯 RAG 系统，重点处理条款级知识组织、混合检索、Rerank、引用溯源、失效状态和无依据回答拦截。
+### 01 · [SmartQuery · 可信上传式智能问数工作台](https://github.com/silasxlx/SmartQuery)
 
-`Python` `FastAPI` `LangGraph` `Milvus` `Hybrid Search` `Rerank` `Evaluation`
+面向上传数据的可信问数与分析系统：通过轻量指标语义层将业务问题绑定到 Dataset 字段，生成结构化 QueryPlan，经 pandas 确定性执行后返回 Answer、表格、图表和可追溯 Evidence。
 
+`Python` `FastAPI` `LangGraph` `Semantic Layer` `QueryPlan` `Pandas` `ECharts`
 
-### 02 · [财报智能问答系统 · Financial Report Intelligent Q&A System](https://github.com/silasxlx/financial-report-rag) 
+### 02 · [授信智能合规审查平台 · CreditGuard AI](https://github.com/silasxlx/creditguard-ai)
+
+面向银行对公授信业务的 AI 合规审查助手，将材料解析、事实抽取、矛盾检测、制度检索、规则校验和人工复核串成可追溯审查链路。
+
+`Python` `FastAPI` `Vue 3` `LangGraph` `RAG` `Rule Engine` `Human-in-the-loop`
+
+### 03 · [财报智能问答系统 · Financial Report Intelligent Q&A System](https://github.com/silasxlx/financial-report-rag)
 
 面向上市公司年度财报的表格感知 RAG 系统，解决长 PDF 解析、复杂财务表格数据丢失、指标错召回和证据页码不准确等问题。
 
@@ -60,23 +66,19 @@
 
 `Python` `Streamlit` `MinerU` `FAISS` `BM25` `DashScope` `Qwen` `Table-aware RAG`
 
-### 03 · [机器学习 · Classical ML Lab](https://github.com/silasxlx/classical-ml-lab) 
+### 04 · [机器学习 · Classical ML Lab](https://github.com/silasxlx/classical-ml-lab)
 
 面向经典机器学习算法的离线优先、可复现实验工程，通过统一命令行、确定性数据切分、评估流水线和结构化产物，让模型实验可以重复运行和审计。
 
 `Python` `scikit-learn` `CLI` `Experiment Tracking` `Evaluation` `Testing`
 
-### 04 · 银行经营分析智能体 · Enterprise Practice
+## 企业实践（脱敏）
 
-连接指标语义层、权限控制、NL2SQL 和分析工作流，让业务问题能够经过查询验证、异常归因和结果溯源，形成结构化分析结论。
+以下项目不提供雇主或客户代码，仅用于说明长期业务场景经验：
 
-`Python` `SQL` `LangGraph` `Qwen Agent` `NL2SQL` `Pandas` `FastAPI`
-
-### 05 · 授信智能合规审查平台 · Enterprise Practice
-
-融合制度检索、确定性规则、工具调用与人工复核：规则引擎负责准入和额度等判断，大模型负责复杂材料理解、异常解释和报告生成。
-
-`LangGraph` `Multi-Agent` `RAG` `Rule Engine` `MCP` `Tool Calling` `Human-in-the-loop`
+- 银行经营分析智能体：连接指标语义层、权限控制、NL2SQL 和分析工作流，支持查询验证、异常归因和结果溯源。
+- 智能营销 Agent：围绕客户分群、产品推荐和营销流程设计可解释的 Agent 工作流。
+- 银行产品知识服务：围绕制度、产品手册和操作指引建设可追溯知识问答能力。
 
 ## 我的工程方法
 
